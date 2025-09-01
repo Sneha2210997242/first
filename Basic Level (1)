@@ -1,0 +1,29 @@
+public class PrimitiveDataTypes {
+ public static void main(String[] args) {
+
+        // Integer types
+        byte byteVar = 100;
+        short shortVar = 30000;
+        int intVar = 100000;
+        long longVar = 10000000000L; 
+
+        // Floating point types
+        float floatVar = 5.75f;  
+        double doubleVar = 19.99;
+
+        // Character type
+        char charVar = 'A';
+
+        // Boolean type
+        boolean booleanVar = true;
+
+        System.out.println("byte value: " + byteVar);
+        System.out.println("short value: " + shortVar);
+        System.out.println("int value: " + intVar);
+        System.out.println("long value: " + longVar);
+        System.out.println("float value: " + floatVar);
+        System.out.println("double value: " + doubleVar);
+        System.out.println("char value: " + charVar);
+        System.out.println("boolean value: " + booleanVar);
+    }
+}
